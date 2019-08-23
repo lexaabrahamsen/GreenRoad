@@ -1,0 +1,8 @@
+@places.map do |place|
+{
+	name: place.name,
+	address: place.address,
+	distance: place.distance,
+	hours: place.hours
+}
+end
