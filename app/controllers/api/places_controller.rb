@@ -16,7 +16,7 @@ class Api::PlacesController < ApplicationController
 
 	def show
 		the_id = params[:id]
-		@place = Place.find_by(id: the_id)
+		@place = Place.find_by(zip_code: '07652')
 		render "show.json.jb"
 	end
 end
