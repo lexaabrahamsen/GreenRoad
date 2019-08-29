@@ -1,7 +1,7 @@
 {
-	id: @place.id,
-	name: @place.name,
-	address: @place.address,
-	distance: @place.distance,
-	hours: @place.hours
+  name: place.name,
+  address: place.address,
+  distance: place.distance,
+  hours: place.hours,
+  pickup_days: place.pickups
 }

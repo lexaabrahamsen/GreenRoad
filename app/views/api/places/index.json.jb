@@ -3,6 +3,7 @@
 	name: place.name,
 	address: place.address,
 	distance: place.distance,
-	hours: place.hours
+	hours: place.hours,
+  pickup_days: place.pickups
 }
 end
