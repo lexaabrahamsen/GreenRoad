@@ -1,0 +1,5 @@
+{
+  zip: @zip.zip_code,
+  days: @zip.pickups.pickup_days
+}
+

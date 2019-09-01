@@ -1,3 +1,4 @@
 class Pickup < ApplicationRecord
-  belongs_to :places
+  has_many :zip_pickups
+  has_many :zips, through: :zip_pickups
 end

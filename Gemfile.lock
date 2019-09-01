@@ -68,6 +68,8 @@ GEM
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.8.0)
+    faraday (0.15.4)
+      multipart-post (>= 1.2, < 3)
     ffi (1.11.1)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -86,6 +88,7 @@ GEM
       multi_json
     jbuilder (2.9.1)
       activesupport (>= 4.2.0)
+    jwt (2.2.1)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -104,6 +107,7 @@ GEM
     minitest (5.11.3)
     msgpack (1.3.1)
     multi_json (1.13.1)
+    multipart-post (2.1.1)
     nio4r (2.4.0)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
@@ -168,6 +172,10 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.9)
+    twilio-ruby (5.25.4)
+      faraday (~> 0.9)
+      jwt (>= 1.5, <= 2.5)
+      nokogiri (>= 1.6, < 2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     unf (0.1.4)
@@ -202,6 +210,7 @@ DEPENDENCIES
   rack-cors
   rails (~> 6.0.0)
   sass-rails (~> 5)
+  twilio-ruby
   tzinfo-data
   web-console (>= 3.3.0)
   webpacker (~> 4.0)

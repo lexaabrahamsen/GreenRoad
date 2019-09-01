@@ -1,0 +1,5 @@
+@zips.map do |zip|
+{
+  zip: zip.zip_code,
+}
+end
